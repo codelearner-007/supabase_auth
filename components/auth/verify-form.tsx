@@ -101,7 +101,7 @@ export function VerifyForm() {
 
     try {
       // Resend verification email
-      await fetch("/api/resend", {
+      await fetch("/api", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
